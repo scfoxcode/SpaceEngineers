@@ -2,4 +2,6 @@
 *
 # except these
 !.gitignore
-
+!source/
+!source/targetPainter.cs
+!source/templateScript.cs
