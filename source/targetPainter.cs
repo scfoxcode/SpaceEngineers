@@ -4,7 +4,7 @@
 // http://www.spaceengineerswiki.com/Visual_Studio_Setup_Guide
 
 /*---------------------------------------------------------------------------*\
-                              TARGET PAINTER SCRIPT
+                             TARGET PAINTER SCRIPT
 
 DESCRIPTION: Obtains GPS co-ordinates of a target using camera raycast.
 Co-ordinates are saved onto LCD screen for later use
@@ -102,6 +102,7 @@ namespace IngameScript
                     SaveCoords(data, panel);
                     return;
                 }
+                SCAN_DISTANCE/=2;
             }
         }  
         //to this comment.
